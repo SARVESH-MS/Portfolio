@@ -71,6 +71,30 @@ npm run build
 
 This creates a generated `build/` folder for deployment.
 
+## GitHub Pages Deployment
+
+This project is configured for GitHub Pages as a project site.
+
+Expected live URL:
+
+```text
+https://sarvesh-ms.github.io/Portfolio/
+```
+
+Important setup already added in this repo:
+
+- `package.json` has the correct `homepage`
+- GitHub Actions workflow is added at `.github/workflows/deploy-pages.yml`
+
+To finish enabling GitHub Pages on GitHub:
+
+1. Open the repository on GitHub
+2. Go to `Settings`
+3. Open `Pages`
+4. Under `Build and deployment`, choose `GitHub Actions`
+
+After that, every push to `main` can deploy the site automatically.
+
 ## What To Edit
 
 ### Change portfolio content
