@@ -71,11 +71,7 @@ This creates a generated `build/` folder for deployment.
 
 This project is configured for GitHub Pages as a project site.
 
-Expected live URL:
-
-```text
-https://sarvesh-ms.github.io/Portfolio/
-```
+After deployment, the site opens at `https://sarvesh-ms.github.io/Portfolio/`.
 
 Important setup already added in this repo:
 
