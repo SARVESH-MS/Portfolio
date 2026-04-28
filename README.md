@@ -55,11 +55,7 @@ npm install
 npm start
 ```
 
-By default, the site opens at:
-
-```text
-http://localhost:3000
-```
+By default, the site opens at `http://localhost:3000`.
 
 If port `3000` is already in use, React automatically starts on another port such as `3001`.
 
