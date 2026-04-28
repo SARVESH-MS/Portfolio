@@ -19,7 +19,7 @@ p,
 .paragraph {
   font-weight: 400;
   color: #999;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.7;
   font-family: "Open Sans", sans-serif; }
 
@@ -270,7 +270,9 @@ p:empty {
     .nav-lang {
       margin: 10px auto; } }
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff; }
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600; }
   .navbar-dark .navbar-nav .nav-link:hover {
     color: #14AF4A; }
 
@@ -300,7 +302,8 @@ p:empty {
 
 .title-border {
   position: relative;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  font-size: 28px; }
   .title-border::before {
     position: absolute;
     content: "";
@@ -541,7 +544,7 @@ textarea.form-control {
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 999px;
   color: #f5f5f5;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 1;
@@ -550,7 +553,35 @@ textarea.form-control {
 
 .project-link .iconify {
   color: #14AF4A;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+#education p,
+#project p,
+#contact p,
+#expertise li {
+  font-size: 20px;
+}
+
+#expertise li {
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+
+  .title-border {
+    font-size: 25px;
+  }
+
+  #education p,
+  #project p,
+  #contact p,
+  #expertise li {
+    font-size: 18px;
+  }
 }
 
 .project-link:hover {
