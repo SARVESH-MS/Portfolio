@@ -6,16 +6,9 @@ The project uses a small React setup for local development and build commands, b
 
 ## Tech Used
 
-- React 17
-- React Scripts 5
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- jQuery
-- Particles.js
-- Themify Icons
-- Iconify CDN
+- HTML5, CSS3, and vanilla JavaScript for the portfolio page
+- React 17 and React Scripts 5 for local development and production builds
+- Manrope and DM Mono via Google Fonts
 
 ## Project Structure
 
@@ -27,11 +20,10 @@ Main files you will use:
 - `public/assets/css/style.css`  
   Main styling for the portfolio.
 
-- `public/assets/js/script.min.js`  
-  Frontend interactions and effects.
+- The mobile menu and scroll-scrub hero timeline are small inline scripts in `public/index.html`.
 
-- `public/assets/sarvesh-img.jpg`  
-  Profile image.
+- `public/assets/sarvesh-profile-optimized.webp`: Compressed portrait used in the About card and as the reduced-motion hero fallback.
+- `public/assets/sarvesh-rotation-fastseek.mp4` and `public/assets/sarvesh-rotation-poster.jpg`: Optimized scroll-scrubbed hero animation and its opening frame.
 
 - `public/assets/resume/My Resume.pdf`  
   Resume file used by the download button.
@@ -115,19 +107,13 @@ Edit:
 public/assets/css/style.css
 ```
 
-### Change JavaScript effects
+### Change JavaScript interactions
 
-Edit:
-
-```text
-public/assets/js/script.min.js
-```
+Edit the small inline script near the end of `public/index.html`.
 
 ### Change image or resume
 
-Replace:
-
-- `public/assets/sarvesh-img.jpg`
+- `public/assets/sarvesh-profile-optimized.webp`
 - `public/assets/resume/My Resume.pdf`
 
 ## Important Notes
@@ -143,9 +129,9 @@ The page currently contains these main sections:
 
 - Home
 - About
-- Education
 - Expertise
-- Project
+- Projects
+- Education
 - Contact
 
 ## Quick Workflow
